@@ -1,0 +1,18 @@
+{
+  "name": "e-com-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "creating apis for E-commerce app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SwapnaBommu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
