@@ -11,6 +11,7 @@ const productController = new ProductController;
 
 //All the paths to controller methods
 
+productRouter.post("/rate",productController.rateProduct);
 //localhost:4100/api/products/filter?minPrice=10&maxPrice=20&category=Category1
 productRouter.get("/filter",productController.filterProducts);
 

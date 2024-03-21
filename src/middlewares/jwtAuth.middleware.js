@@ -12,6 +12,7 @@ export const jwtAuth = (req, res, next) =>{
     try {
         const payload = jwt.verify(token,'HZmAKOhp52WitfLhLBlQcDPv2hRnxwJd');
         console.log(payload);
+        req.userId = payload.userId;
     }
     catch(err){
         //4.return error

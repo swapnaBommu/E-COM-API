@@ -22,10 +22,20 @@ export default class UserModel {
 
 }
 
-let  users = [{
-    id:1,
-    "name": "Seller User",
-    "email" : "seller@ecom.com",
-    "password":"Pass@123",
-    "type":"seller"
-}]
+let  users = [
+    {
+        id:1,
+        "name": "Seller User",
+        "email" : "seller@ecom.com",
+        "password":"Pass@123",
+        "type":"seller"
+    },
+    {
+        id:2,
+        "name": "customer User",
+        "email" : "customer@ecom.com",
+        "password":"Pass@123",
+        "type":"customer"
+
+    }
+]

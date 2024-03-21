@@ -2,6 +2,7 @@
 import express from 'express';
 import productRouter from './src/features/product/product.routes.js';
 import userRouter from './src/features/user/user.routes.js';
+import cartRouter from './src/features/cartItems/cartItems.routes.js';
 import bodyParser from 'body-parser';
 import basicAuthorizer from './src/middlewares/basicAuth.middleware.js';
 import jwtAuth from './src/middlewares/jwtAuth.middleware.js';
@@ -18,6 +19,7 @@ server.get('/',(req, res) => {
 //For all req related to products redirect to product router
 server.use('/api/products',jwtAuth, productRouter);
 server.use('/api/users',userRouter);
+server.use('/api/cartItems',jwtAuth,cartRouter);
 //4. specify port
 server.listen(5000);
 
