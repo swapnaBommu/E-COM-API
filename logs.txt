@@ -1,0 +1,7 @@
+{"level":"info","message":"/api/users/signup - {\"name\":\"name1\",\"email\":\"name1@gmail.com\",\"password\":\"Pass@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"name1\",\"email\":\"name1@gmail.com\",\"password\":\"Pass@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signin - {\"email\":\"customer@ecom.com\",\"password\":\"Pass@123\"}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userId=2&productId=1&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userId=2&productId=11&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userId=12&productId=1&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"name1\",\"email\":\"name1@gmail.com\",\"password\":\"Pass@123\"}","service":"request-logging"}

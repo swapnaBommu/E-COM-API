@@ -7,6 +7,7 @@ export default class UserController {
         res.status(201).send(user);
     }
     signIn(req,res) {
+        console.log(req.body)
         const {email, password} = req.body;
         const result = UserModel.signIn(email,password);
         if(!result){
